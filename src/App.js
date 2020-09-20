@@ -14,7 +14,7 @@ function App() {
 		<Router>
 			<div className="App">
 				<div className="App-header">
-					<Navbar />
+					<Navbar />	
 					<Route path="/" exact component={ExerciseList} />
 					<Route path="/edit/:id" component={EditExercise} />
 					<Route path="/create" component={CreateExercise} />
